@@ -15,6 +15,7 @@ Please don't abuse this script. I figure that with the very little traffic I get
 - `/get.php` GET request that returns JSON of the currently worn perfume
 ```
 {
+  "active": true or false, // false if there is no currently worn perfume
   "brand": "String of perfume brand",
   "perfume": "String of perfume name",
   "url": "String of perfume URL on Parfumo"
