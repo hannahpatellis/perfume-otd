@@ -2,7 +2,7 @@
 
 I love perfumes! And I log what I wear daily on [Parfumo](https://www.parfumo.com), a perfume community site I really love. This is a small PHP script that simply loads my Parfumo profile page and gets the current perfume, then loads the perfume's entry and gets the perfume name and perfume brand. Then it prints out JSON for easy inclusion on my website. Easy as that!
 
-Please don't abuse this script. I figure that with the very little traffic I get to my personal website, querying Parfumo twice with every visit to my "About" page isn't going to be any kind of taxing.
+**Please don't abuse this script.** I figure that with the very little traffic I get to my personal website, querying Parfumo twice with every visit to my "About" page isn't going to be any kind of taxing.
 
 ## Packages Used
 
@@ -23,7 +23,7 @@ Please don't abuse this script. I figure that with the very little traffic I get
 
 ## Notes
 
-- Lines 4-6 in `./api/get.php` are needed if you have CORS issues. Make sure to change line 4 to be your request URL
+- Lines 10-12 in `./api/get.php` are needed if you have CORS issues. Make sure to change the value of variable $originDomain on line 7 to be your request URL
 
 ---
 
