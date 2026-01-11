@@ -9,10 +9,9 @@ Please don't abuse this script. I figure that with the very little traffic I get
 - [hQuery.php](https://github.com/duzun/hQuery.php)
   - Fast and efficient web scraper for PHP
 
-
 ## Endpoint
 
-- `/get.php` GET request that returns JSON of the currently worn perfume
+- `./api/get.php` GET request that returns JSON of the currently worn perfume
 ```
 {
   "active": true or false, // false if there is no currently worn perfume
@@ -21,6 +20,10 @@ Please don't abuse this script. I figure that with the very little traffic I get
   "url": "String of perfume URL on Parfumo"
 }
 ```
+
+## Notes
+
+- Lines 4-6 in `./api/get.php` are needed if you have CORS issues. Make sure to change line 4 to be your request URL
 
 ---
 
