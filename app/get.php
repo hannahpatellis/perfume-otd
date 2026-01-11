@@ -1,5 +1,10 @@
 <?php
 
+// Set CORS headers
+header('Access-Control-Allow-Origin: https://hannahap.com');
+header('Access-Control-Allow-Methods: GET');
+header("Access-Control-Allow-Headers: X-Requested-With");
+
 // Parfumo.com username to query
 $parfumoUsername = "iconicos";
 
